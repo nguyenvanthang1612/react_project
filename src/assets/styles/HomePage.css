@@ -1,0 +1,43 @@
+.carousel-slide {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .featured-posts {
+    margin-top: 20px;
+  }
+  
+  .highlighted-post {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+  }
+  
+  .highlighted-post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .most-viewed {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .most-viewed-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .most-viewed-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
